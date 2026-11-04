@@ -1,11 +1,14 @@
 [project]
-name = "blank-app-template"
+name = "math-streamlit-practice"
 version = "0.1.0"
-description = "A simple Streamlit app template."
+description = "Streamlit으로 만드는 수학 실습 앱"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "streamlit>=1.61.1",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
 ]
 
 [tool.uv]
